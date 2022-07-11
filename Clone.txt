@@ -1,0 +1,28 @@
+https://localhost:9443/aws/instance/clone
+
+account: "NIM-CB" //
+availabilityZone: "ap-southeast-1a" //
+backupName: "testingcode12221-i-0b17c829ea102d2bd-2022-07-01-11-10-07"//
+cloneName: "Terraform_Linux_cl_Jul_01_2022_17-35-11"//
+cloneNicViewModels: [{srcInterfaceId: "eni-00157d2b2bb24a52f", subnetId: "subnet-0fa1b369df2aee3dc",…}] //
+0: {srcInterfaceId: "eni-00157d2b2bb24a52f", subnetId: "subnet-0fa1b369df2aee3dc",…}
+securityGroups: ["sg-0c9d36c95562b80ea"] //
+srcInterfaceId: "eni-00157d2b2bb24a52f" //
+subnetId: "subnet-0fa1b369df2aee3dc" //
+enableMonitoring: false
+fromSecondary: true //
+instanceId: "i-0b17c829ea102d2bd" //
+instanceProfileRoleName: "Terraform-Admin" //
+instanceType: "t2.micro" //
+keyName: "nimesa-developers"//
+powerOff: false //
+powerOn: true//
+preserveIpV4: false //
+region: "ap-southeast-1" //
+restoreType: "INSTANT" //
+secondaryDetails: {region: "ap-southeast-1"} 
+region: "ap-southeast-1" //
+swapRoot: false //
+targetAccount: "NIM-CB" //
+volumeId: ["vol-007e97efd556ed28b"] 
+0: "vol-007e97efd556ed28b"
